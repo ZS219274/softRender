@@ -1,29 +1,33 @@
 #pragma once
-#include "../global/base.h"
-#include "frameBuffer.h"
+#include <memory>
+
 #include "../application/application.h"
+#include "../global/base.h"
+#include "Raster.h"
+#include "frameBuffer.h"
 
 #define sgl GPU::getInstance()
 
-
 class GPU {
-public:
-	static GPU* getInstance();
-	GPU();
+ public:
+  static GPU* getInstance();
+  GPU();
 
-	~GPU();
+  ~GPU();
 
-	
-	void initSurface(const uint32_t& width, const uint32_t& height, void* buffer = nullptr);
+  void initSurface(const uint32_t& width, const uint32_t& height,
+                   void* buffer = nullptr);
 
+  void clear();
 
-	void clear();
+  void drawPoint(const uint32_t& x, const uint32_t& y, const RGBA& color);
 
-	
-	void drawPoint(const uint32_t& x, const uint32_t& y, const RGBA& color);
+  void drawLine(const Point& p1, const Point& p2);
+  
+  void drawTriangle(const Point& p1, const Point& p2, const Point& p3);
 
-private:
-	static GPU* mInstance;
+ private:
+  static std::unique_ptr<GPU> mInstance;
 
-	FrameBuffer* mFrameBuffer{ nullptr };
+  FrameBuffer* mFrameBuffer{nullptr};
 };

@@ -11,9 +11,9 @@ typedef LinuxPlatformWindow PlatformWindowImpl;
 #endif
 
 PlatformWindow* PlatformFactory::createPlatformWindow() {
-    return new PlatformWindowImpl();
+  return new PlatformWindowImpl();
 }
 
 void PlatformFactory::destroyPlatformWindow(PlatformWindow* window) {
-    delete window;
+  delete window;
 }

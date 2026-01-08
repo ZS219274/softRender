@@ -1,9 +1,0 @@
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/CMakeFiles/softRenderer.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/application/CMakeFiles/applicationLib.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/application/CMakeFiles/edit_cache.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/application/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/gpu/CMakeFiles/gpuLib.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/gpu/CMakeFiles/edit_cache.dir
-/home/ubuntu/wxx/lectureCodes02-GDI-win-lin/build/gpu/CMakeFiles/rebuild_cache.dir

@@ -39,15 +39,12 @@ sudo yum install SDL2-devel
 
 ### Windows平台
 ```bash
-cd /home/ubuntu/wxx/lectureCodes02-GDI  # 或项目所在路径
-mkdir build && cd build
-cmake ..
-cmake --build .
+visual studio 打开cmake项目 
 ```
 
 ### Linux平台
 ```bash
-cd /home/ubuntu/wxx/lectureCodes02-GDI
+cd softRenderer
 mkdir build && cd build
 cmake ..
 make
